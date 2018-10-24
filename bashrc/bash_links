@@ -1,0 +1,8 @@
+# vim configuration links
+if [ ! -f $HOME/.vimrc ]; then
+    ln -s $HOME/dotfiles/vim/vimrc $HOME/.vimrc
+fi
+
+if [ ! -f $HOME/.vim ]; then
+    ln -s $HOME/dotfiles/vim $HOME/.vim
+fi
